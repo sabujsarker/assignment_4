@@ -1,0 +1,364 @@
+/*medium layout: 1280px.*/
+
+@media only screen and (min-width:992px) and (max-width:1200px) {}
+
+
+/*tablet layout: 768px.*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .offer {
+        min-height: 728px;
+    }
+
+    .courses_top {
+        font-size: 19px;
+        margin-top: 39px;
+    }
+
+    .about_section > img {
+        width: 100%;
+        height: 323px;
+        float: none;
+        margin-left: 0%;
+    }
+
+    .about_text {
+        float: none;
+        width: 96%;
+        margin: 1%;
+    }
+
+    .about_text > p {
+        font-size: 19px;
+    }
+
+    .about_text > ul > li {
+        font-size: 20px;
+        line-height: 24px;
+        margin-top: 10px;
+        margin-left: 18px;
+    }
+
+    .project {
+        width: 25%;
+    }
+
+    .project > img {
+        height: 166px;
+    }
+
+    .all {
+        padding: 3%;
+        margin-top: 2%;
+    }
+
+    .project > h3 {
+        font-size: 19px;
+        letter-spacing: 0px;
+        margin: -9px 6px 23px 6px;
+    }
+
+    .course_ful {
+        min-height: 813px;
+    }
+
+    .right > p {
+        font-size: 16px;
+    }
+
+    .address > ul > li > p {
+        font-size: 16px;
+    }
+
+    .address > ul > li > i {
+        font-size: 22px;
+        margin-right: 9px;
+    }
+
+    .social {
+        padding: 0px;
+        margin-left: 0px;
+        margin-top: 18px;
+    }
+
+    .social > i {
+        letter-spacing: 41px;
+    }
+
+
+    .contact {
+        min-height: 453px;
+    }
+
+    .box > button {
+        padding: 7px;
+        font-size: 18px;
+    }
+
+    #box3 {
+        height: 119px;
+    }
+
+.menu {
+    display: none
+}
+
+.courses_text {
+    text-align: center;
+    width: 100%;
+}
+
+.courses > i {
+    font-size: 87px;
+    width: 100%;
+}
+
+.courses_text > p {
+    font-size: 18px;
+}
+
+.courses_text > h1 {
+    font-size: 22px;
+}}
+
+
+/* mobile layout: 320px.*/
+
+@media only screen and (max-width: 767px) {
+    .project {
+        float: left;
+        width: 33.33%;
+        /* margin: .5%; */
+        margin-left: 0%;
+    }
+
+    .project > img {
+        height: 104px;
+    }
+
+    .all {
+        padding: 0%;
+        margin-top: 10%;
+    }
+
+    .about_section > img {
+        width: 100%;
+        height: 226px;
+        float: none;
+        margin-left: 0%;
+    }
+
+    .about_text {
+        float: none;
+        width: 91%;
+        margin-left: 9%;
+    }
+
+    .about_text > p {
+        font-size: 18px;
+        margin-top: 13px;
+    }
+
+    .about_text > ul > li {
+        font-size: 18px;
+    }
+
+    .courses_top {
+        padding: 22px;
+        font-size: 13px;
+    }
+
+    .project > h3 {
+        font-size: 15px;
+        letter-spacing: normal;
+        text-transform: capitalize;
+        margin:-9px 7px 23px 6px;	font-weight: 500;
+    }
+
+    .course_ful {
+        min-height: 719px;
+        margin-top: 31px;
+    }
+
+    .box {
+        width: 100%;
+        float: none;
+    }
+
+    .right {
+        padding: 2%;
+        width: 92%;
+    }
+
+    .contact {
+        min-height: 765px;
+    }
+
+    .right > p {
+        margin: 17px 0px 31px 0px;
+        font-size: 14px;
+    }
+
+    .address > ul > li > i {
+        font-size: 20px;
+    }
+
+    .address > ul > li > p {
+        font-size: 16px;
+    }
+
+    .social {
+        float: none;
+        padding: 0px;
+        margin-left: 0px;
+        text-align: center;
+        margin-top: 19px;
+    }
+
+    .social > i {
+        letter-spacing: normal;
+        margin-left: 13px;
+    }
+
+    .courses {
+        width: 48%;
+    }
+
+    .offer > h1 {
+        font-size: 37px;
+        letter-spacing: 3px;
+        padding: 28px 0px 0px 0px;
+    }
+
+    .courses_1st {
+        float: left;
+        width: 46%;
+        margin: 1%;
+        text-align: center
+    }
+
+    .courses_2nd {
+        float: right;
+        width: 46%;
+        margin: 1%;
+        text-align: center
+    }
+
+    .offer {
+        min-height: 1000px;
+    }
+
+    .about > h1 {
+        font-size: 28px;
+        margin: 36px 0px 9px 0px;
+    }
+
+    .about > p {
+        font-size: 17px;
+        letter-spacing: 1px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .logo > h1 {
+        font-size: 21px;
+        letter-spacing: 2px;
+        margin-top: 9px;
+    }
+
+    .banner_saction > h1 {
+        font-size: 20px;
+    }
+
+    .banner_saction > h2 {
+        font-size: 18px;
+    }
+
+    .banner_saction > button {
+        padding: 8px;
+        font-size: 12px;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        margin: 9px 0px;
+    }
+
+    .banner_saction {
+        right: 7%;
+        top: 45%;
+    }
+
+    .welcome > h1 {
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    .welcome > p {
+        font-size: 16px;
+    }
+
+    .courses > i {
+        width: 100%;
+        font-size: 75px;
+    }
+
+    .courses_text > h1 {
+        font-size: 19px;
+        letter-spacing: 2px;
+        margin: 4px 0px;
+    }
+
+    .courses_text > p {
+        font-size: 16px;
+    }
+
+    .courses_text {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+/* wide mobile layout: 480px.*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .banner_saction > button {
+        font-size: 16px;
+    }
+
+    .banner_saction > h2 {
+        font-size: 27px;
+    }
+
+    .banner_saction > h1 {
+        font-size: 30px;
+    }
+
+    .offer {
+        min-height: 820px;
+    }
+
+    .course_ful {
+        min-height: 903px;
+    }
+
+    .project > img {
+        min-height: 164px;
+    }
+
+    .all {
+        padding: 0% 9%;
+        margin-top: 7%
+    }
+
+    .box > input {
+        margin-top: -4px;
+    }
+
+    .contact {
+        min-height: 693px;
+    }
+
+    .project > h3 {
+        margin: -9px 8px 23px 8px;
+    }}
